@@ -20,4 +20,7 @@ $(document).ready(function(){
 	$('.menu').click(function(){
 		$('form').show(1000);
 	});
+	$('li').hover(function(){
+		$(this)css.('background-color', 'red');
+	});
 });
